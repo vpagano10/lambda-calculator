@@ -1,11 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import "../../App.css";
 
-const Display = () => {
+const Display = (props) => {
   return (
-    // <input value='0' />
     <div className="display">
-      {'0'}
+      {props.calcDisplay}
     </div>
   )
 };
