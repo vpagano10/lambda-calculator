@@ -1,6 +1,6 @@
 import React from "react";
-
 import logo from "../../Img/Lambda_Logo_white.png";
+import "../../App.css";
 
 const Logo = () => {
   return (
