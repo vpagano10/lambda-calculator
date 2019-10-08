@@ -21,14 +21,58 @@
     font-size: 5.0rem;
   }
 
-.numberButtons {
+.logo-container {
+    margin: 4% 0% 4% 4%;
+}
 
+.App {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.display {
+    margin: 0 auto;
+}
+
+.buttonsOne {
+    margin: 2% 0% 0% 8%;
+    width: 65%;
+}
+
+.buttonsTwo {
+    margin: 2% 0% 0% 0%;
+    width: 30%;
+}
+
+.numberButtons {
+    padding: 9%;
+    margin: 2% 6% 2% 0%;
+    border-radius: 50%;
+    border: 1px solid black;
+    font-size: 1.4rem;
+    background-color: rgb(32, 32, 150);
+    color: white;
 }
 
 .operatorButtons {
-
+    display: flex;
+    flex-direction: column;
+    padding: 20%;
+    margin: 5% 0% 0% 0%;
+    border-radius: 50%;
+    border: 1px solid black;
+    font-size: 1.4rem;
+    background-color: rgb(37, 144, 163);
+    color: white;
 }
 
 .specialButtons {
-    
+    padding: 8%;
+    margin: 2% 6% 2% 0%;
+    border-radius: 50%;
+    border: 1px solid black;
+    font-size: 1.4rem;
+    background-color: rgb(49, 108, 177);
+    color: white;
 }
